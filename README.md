@@ -1,16 +1,17 @@
-# Título del Proyecto: API 
-Desarrollo de una API con Python, FastAPI y base de datos PostgreSQL como backend para proceso de envió de remesas.
+# Título del Proyecto: API para reserva de citas (SPA/MEDICAS) 
+Desarrollo de una API con NodeJS, API REST, ORM, Base de datos MySql como backend para proceso de reservación de citas SPA/MEDICAS.
 
 ## Descripción del proyecto 📋
-El proyecto consiste en el desarrollo de una base de datos y una API (Application Programming Interface) basada en Python, utilizando el framework FastAPI y PostgreSQL como base de datos. Este software permitirá la creación de un servicio backend que podrá ser consumido por cualquier aplicaciones front-end creada. El propósito de la API y la base de datos es agilizar los procesos manuales llevados a cabo por la empresa de remesas, donde se aplicará seguridad y las cuatro operaciones básicas CRUD.
+El proyecto consiste en el desarrollo de una base de datos y una API (Application Programming Interface) basada en NodeJS, utilizando el framework Express y MySql como base de datos. Este software permitirá la creación de un servicio backend que podrá ser consumido por cualquier aplicaciones front-end creada. El propósito de la API y la base de datos es agilizar los registros manuales de citas llevadas por un SPA/(CLINICAS), donde se aplicará seguridad y las cuatro operaciones básicas CRUD.
 
 ## 📚 Funcionalidades 
-* Generar una base de datos con los clientes, beneficiarios, tasas, países, usuarios (agentes y administradores), bancos, y el registro del tickets o transacción.
-* Calculo de cambios según la tasa del día.
-* Calculo de pago de % para cada agente.
-* Envío de manera eficiente la información al cliente sobre su transferencia.
-* Llevar mejor contabilidad de los montos recibidos y enviados.
-
+* Generar una base de datos con los clientes, especialistas, tarifario(servicios), sedes, horarios, usuarios (agentes y administradores), y el registro de la cita o transacción.
+* Generación de reportes por servicios utilizados.
+* Generación de reportes por Especialista.
+* Generación de reportes por Cliente.
+* Envío de manera eficiente la información al cliente sobre sus servicios consumidos.
+* Llevar mejor control en el manejo de las citas.
+  
 ## 🚀 Instrucciones para ejecutar el proyecto
 - Clonar repositorio
 - Abrir el proyecto con el IDE de tu preferencia
